@@ -1,3 +1,52 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/*green*/
+.nota {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #efffcb;
+    color: #8AC926;
+    font-weight: bold;
+}
+/*red*/
+.defn {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffd6d8;
+    color: #FF595E;
+    font-weight: bold;
+}
+/*blue*/
+.teor {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #c7f3ff;
+    color: #1982C4;
+    font-weight: bold;
+
+}
+/*yellow*/
+.amarillo {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFCA3A;
+    font-weight: bold;
+}
+/*purple*/
+.duda {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #e8e2ff;
+    color: #6A4C93;
+    font-weight: bold;
+}
+/*orange*/
+.ejem {
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffe7d2;
+    color: #FF924C;
+    font-weight: bold;
+}
