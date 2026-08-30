@@ -202,3 +202,5 @@ $$
 ### Propiedades
 1. $S$ es creciente y continua en $[a,b]$
 2. $S$ es estrictamente creciente si no existe un subintervalo donde $f$ sea constante
+
+Probando!!!
