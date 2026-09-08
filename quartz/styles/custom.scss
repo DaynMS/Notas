@@ -102,26 +102,18 @@
 
 /* Definición*/
 .callout[data-callout="definicion"] {
-  --color: #ffd6d8;
-  --border: #FF595E;
-  --bg: #ffd6d8;
-  border-radius: 10px;
+    --color: #FF595E;
+    --border: #FF595E;
+    --bg: #ffd6d8;
+    border-radius: 10px;
 }
 
-.callout[data-callout="definicion"] .callout-title {
-  color: #FF595E !important;
-  font-weight: bold;
-}
-
-.callout[data-callout="Teorema"] {
-  --callout-color: 240, 251, 255;
-}
-
-.callout[data-callout="Teorema"] .callout-title {
-  color: #7DC98A !important;
-  font-weight: bold;;
+.callout[data-callout="teorema"] {
+    --color: #7DC98A;
+    --border: #7DC98A;
+    --bg: #f0fbff;
 }
 
 .callout[data-callout="nota"] {
-  --color: #8AC926;
+    --color: #8AC926;
 }
