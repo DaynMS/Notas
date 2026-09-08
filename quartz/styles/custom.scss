@@ -22,7 +22,7 @@
 .defn {
     padding: 3px 10px;
     border-radius: 0px 10px 10px 0px;
-    background-color: #ffd6d8;
+    background-color: #;
     color: #FF595E;
     font-weight: bold;
 }
@@ -100,20 +100,40 @@
   display: none;
 }
 
-/* Definición*/
+
 .callout[data-callout="definicion"] {
-    --color: #FF595E;
-    --border: #FF595E;
-    --bg: #ffd6d8;
-    border-radius: 10px;
+    --color: #db4242;
+    --border: #db424244;
+    --bg: #db424210;
 }
 
-.callout[data-callout="teorema"] {
-    --color: #7DC98A;
-    --border: #7DC98A;
-    --bg: #f0fbff;
+.callout {
+    &[data-callout="teorema"],
+    &[data-callout="proposicion"],
+    &[data-callout="lema"] {
+    --color: #00b8d4;
+    --border: #00b8d444;
+    --bg: #00b8d410;
+    }
 }
 
 .callout[data-callout="nota"] {
-    --color: #8AC926;
+    --color: #00bfa5;
+    --border: #00bfa544;
+    --bg: #00bfa510;
+}
+
+.callout[data-callout="ejemplo"] {
+    --color: #dba642;
+    --border: #dba64244;
+    --bg: #dba64210;
+}
+
+.callout {
+    &[data-callout="tarea"],
+    &[data-callout="pregunta"] {
+    --color: #7a43b5;
+    --border: #7a43b544;
+    --bg: #7a43b510;
+    }
 }
