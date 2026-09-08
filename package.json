@@ -103,6 +103,7 @@
     "pretty-bytes": "^7.1.0",
     "pretty-time": "^1.1.0",
     "remark-parse": "^11.0.0",
+    "remark-directive": "^3.0.1",
     "remark-rehype": "^11.1.2",
     "rfdc": "^1.4.1",
     "serve-handler": "^6.1.6",
