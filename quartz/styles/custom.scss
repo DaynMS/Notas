@@ -92,10 +92,27 @@
     background-color: #fff1e2;
 }
 
-.callout[data-callout="defn"] {
-  --callout-color: 255, 89, 94;
+/* Cuadros con plugin ObsidianFlavoredMarkdown */
+
+/* Sin lápiz*/
+.callout-icon {
+  display: none;
 }
 
-.callout[data-callout="teo"] {
-  --callout-color: 255, 165, 0;
+/* Definición*/
+.callout[data-callout="defn"] {
+  --callout-color: #ffe9ea;
+}
+.callout[data-callout="defn"] .callout-title {
+  color: #FF595E;
+  font-weight: bold;
+}
+
+.callout[data-callout="teor"] {
+  --callout-color: #f0fbff;
+}
+
+.callout[data-callout="teor"] .callout-title {
+  color: #FF595E;
+  font-weight: #f0fbff;
 }
