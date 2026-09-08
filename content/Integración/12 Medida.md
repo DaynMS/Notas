@@ -170,7 +170,8 @@ Además, si $f$ es medible y $f=g$ c.t.p entonces $g$ es medible.
 En la integral de Riemann, se tiene que 
 $$
 S(f;P) = \sum_k a_k m(I_k)
-$$ donde $P$ es una partición y $I_k = [x_{k-1}, x_k]$
+$$
+donde $P$ es una partición y $I_k = [x_{k-1}, x_k]$
 
 <span class="defn">Definición:</span> $\phi$ se dice una **función simple no negativa** si existen $E_1, E_2, \dots, E_N$ medibles y constantes $a_1, \dots, a_N \ge 0$ tales que 
 $$
