@@ -100,19 +100,19 @@
 }
 
 /* Definición*/
-.callout[data-callout="defn"] {
+.callout[data-callout="definición"] {
   --callout-color: #ffe9ea;
 }
 .callout[data-callout="defn"] .callout-title {
-  color: #FF595E;
+  color: #FF595E !important;
   font-weight: bold;
 }
 
-.callout[data-callout="teor"] {
+.callout[data-callout="Teorema"] {
   --callout-color: #f0fbff;
 }
 
-.callout[data-callout="teor"] .callout-title {
+.callout[data-callout="Teorema"] .callout-title {
   color: #FF595E;
   font-weight: #f0fbff;
 }
