@@ -91,3 +91,11 @@
     margin: 15px 0;
     background-color: #fff1e2;
 }
+
+.callout[data-callout="defn"] {
+  --callout-color: 255, 89, 94;
+}
+
+.callout[data-callout="teo"] {
+  --callout-color: 255, 165, 0;
+}
