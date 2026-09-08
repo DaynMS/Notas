@@ -1,6 +1,6 @@
 import { visit } from "unist-util-visit"
-import { QuartzTransformerPlugin } from "../types"
 import remarkDirective from "remark-directive"
+import { QuartzTransformerPlugin } from "../types"
 
 export const CustomDirectives: QuartzTransformerPlugin = () => ({
   name: "CustomDirectives",
@@ -8,15 +8,16 @@ export const CustomDirectives: QuartzTransformerPlugin = () => ({
   markdownPlugins() {
     return [
       remarkDirective,
-      () => (tree) => {
-        visit(tree, "containerDirective", (node: any) => {
-          node.data = {
-            hName: "div",
-            hProperties: {
+      () => {
+        return (tree) => {
+          visit(tree, "containerDirective", (node: any) => {
+            node.data ??= {}
+            node.data.hName = "div"
+            node.data.hProperties = {
               className: [node.name],
-            },
-          }
-        })
+            }
+          })
+        }
       },
     ]
   },
