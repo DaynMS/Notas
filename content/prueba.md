@@ -1,4 +1,4 @@
-[!teorema] Definición
+>[!definicion] Definición
 >Si $f: U \sube \R^m \to \R^n$ es diferenciable en $a \in U$, existe una única transformación lineal $T_a : \R^m \to \R^n$ tal que 
 >
 >$$
@@ -6,6 +6,11 @@
 >$$
 
 > [!teorema] Teorema de Pitágoras
+> En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.
+>
+> $$c^2 = a^2 + b^2$$
+
+> [!nota]
 > En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.
 >
 > $$c^2 = a^2 + b^2$$
