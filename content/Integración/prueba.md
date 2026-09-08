@@ -1,193 +1,184 @@
-# Primer teorema del valor medio
-Para integrales de Riemann: 
-Existe $c\in (a,b)$ tal que el área del rectángulo $f(c) \times (b-a)$ es igual a la integral entre $a$ y $b$
+Sí, entendí.
 
-<span class="teor">7.30 Teorema:</span> **Primer teorema del valor medio.**
-Sea $f \in R(\alpha)$ y $\alpha \uparrow$, entonces existe $c \in [ \inf \{f(x) : x \in I\}, \sup \{f(x) : x \in I\}]$ tal que
+Usted me dará uno o varios archivos .md, y yo buscaré los bloques matemáticos escritos como:
 
-$$
-\int_a^b f\ d\alpha = c[\alpha(b) - \alpha(a)] \tag*{$\dblcolon$}
-$$
+$$ código LaTeX $$
 
-En particular, si $f$ es continua $c = f(x_0)$, para algún $x_0 \in [a,b]$
+y los reformatearé para que queden cada uno en líneas separadas, así:
 
-# Integradores de variación acotada
-
-Si $\alpha$ es de VA en $[a,b]$, $V_\alpha(x)$ designa la variación total de $\alpha$ en $[a,x]$ para $a < x \le b$ y $V_\alpha(a) = 0$
-
-<span class="teor">7.24 Teorema:</span> Sea $\alpha$ de VA en $[a,b]$ y sea $f$ definida y acotada en $[a,b]$. Si $f \in R(\alpha)$, entonces $f \in R(V_\alpha)$ en $[a,b]$ <span style="float: right;">$\dblcolon$</span>
-
-<span class="teor">7.25 Teorema:</span>  Sea $f \in R(\alpha)$ en $[a,b]$ y $\alpha$ es de VA en $[a,b]$. Si $[c,d] \sube [a,b]$, entonces
+texto anterior
 
 $$
-f\in R(\alpha) \qquad \text{en } [c,d] \tag*{$\dblcolon$}
+código LaTeX
 $$
 
-## Condiciones suficientes para ser integrable
+texto siguiente
 
-<span class="teor">7.27 Teorema:</span> Si $f$ es continua en $[a,b]$ y $\alpha$ es de VA en $[a,b]$, entonces  $f \in R(\alpha)$ en $[a,b]$.
+Es decir, no modificaré el código LaTeX, solo agregaré los saltos de línea necesarios alrededor de los $$.
 
+Puede subir los .md.
 
-# Integral como función del intervalo 
+5, Lebesgue.md
+File
+6, sucesiones.md
+File
+7. Series.md
+File
+8. Convergencia.md
+File
+9. Series de potencias.md
+File
 
-<span class="teor">Corolario:</span> Si $f \in R(\alpha)$ en $[a,b]$ y $\alpha$ es de VA en $[a,b]$ ,
+Sí. Ya recibí los 5 archivos. Los voy a reformatear sin cambiar el contenido de LaTeX, únicamente separando cada bloque $$...$$ para que los delimitadores queden en líneas independientes.
 
+Sin embargo, los archivos adjuntos están montados como solo lectura, así que no puedo sobrescribirlos directamente ni crear los archivos modificados en esa ubicación.
+
+de la respuesta del primero en un bloque de código, con el que pueda copiar y pegar
+
+Claro. Aquí está el primer archivo completo, listo para copiar y pegar:
+
+# Criterio de Lebesgue
+
+## Oscilación
+Las funciones
+Condiciones suficientes pero no necesarias
+- $f$ continua
+- $f$ de variación acotada
+
+$f$ puede tener infinitas pero enumerables discontinuidades
+
+Queremos determinar condiciones sobre el tamaño de las discontinuidades de $f$ en $[a,b]$ que permitan que $f \in R$
+
+La condición de Riemann se tiene si y sólo si $\sum_k(M_k - m_k) <\epsilon$.
+En los puntos de continuidad de $f$, para un refinamiento muy pequeño 
 $$
-F(x) = \int_a^x f(t)\ d\alpha(t)
-$$
-
-con $x \in [a,b]$ está bien definida. <span style="float: right;">$\dblcolon$</span>
-
-<span class="teor">7.32 Teorema:</span> Para $F(x)$ en las condiciones anteriores, se cumplen:
-1. $F$ es de VA en $[a,b]$
-2. Si $\alpha$ es continua en $x_0$, entonces $F$ es continua en $x_0$
-3. Si $\alpha \uparrow$ en $[a,b]$, entonces $F$ es derivable en los puntos $x_0$ donde $f$ es continua y $\alpha$ es derivable y además
-
-$$
-F'(x_0) = f(x_0) \alpha'(x_0) \tag*{$\dblcolon$}
-$$
-
-<span class="nota">Nota:</span> 
-1. Si $f\in R$ en $[a,b]$ (es decir que $\alpha(x) = x$), entonces $F(x) = \int_a^b f(t)\ dt$ es de VA y continua.
-2. **Primer teorema fundamental del cálculo**. Si $f\in R$ en $[a,b]$ (es decir que $\alpha(x) = x$), entonces $F$ es derivable en los puntos de continuidad de $f$ y se tiene
-
-$$
-F'(x_0) = f(x_0)
-$$
-
-3. Sea
-
-$$
-f(x) = \begin{cases}
-    0, & -1\le x < 0\\
-    1, & 0\le x \le 1
-\end{cases}
-$$
-
-entonces
-
-$$
-F(x) = \begin{cases}
-    0, & -1\le x < 0\\
-    x, & 0\le x \le 1
-\end{cases}
+M_k \approx m_k
 $$
 
-Como $f$ es discontinua en $x_0 = 0$, esto explica que $F$ no es derivable en $x_0 = 0$
+es decir que en $I_k$, $(M_k - m_k)\Delta_k x$ es pequeño.
 
-<span class="teor">7.31 Teorema:</span> **Segundo teorema del Valor medio**.
-Sea $f \uparrow$ y $\alpha$ continua en $[a,b]$, entonces existe $x_0 \in (a,b)$ tal que
-
+En los puntos de **discontinuidad** $M_k - m_k \le 2M$, con  $M = \sup\{|f(x)| : x \in [a,b]\}$, luego 
 $$
-\int_a^b f(x)\ d \alpha(x) = f(a) \int_a^{x_0} d\alpha(x) + f(b) \int_{x_0}^b d\alpha(x) \tag*{$\dblcolon$}
+(M_k - m_k)\Delta_k x \le 2M \Delta_k x
 $$
+ así necesitamos que $M$ sea muy pequeña para que $f$ siga siendo R-S integrable.
 
-<span class="nota">Nota:</span> $f$ es creciente, pero si además es mayor a $0$. Supongamos que es discontinua en $a$, como $\alpha$ es continua podemos considerar $f(a) = 0$. Entonces
-
+<span class="defn">7.45 Definición:</span> Sea $f$ acotada en $[a,b]$, si $T \sube [a,b]$ distinto a vacío. Se define la **oscilación** de $f$ en $T$ por 
 $$
-\int_a^b f\ d\alpha = f(b) \int_{x_0}^b d\alpha(x)
-$$
- 
-
-<span class="teor">7.33 Corolario:</span> Sean $f,g \in R$ en $[a,b]$ y sean $F(x) = \int_a^x f(t)\ dt$ y $G(x) = \int_a^x g(t)\ dt$ para $x \in [a,b]$, entonces $f \in R(G)$, $g \in R(F)$ y  $fg \in R(\alpha)$ y
-
-$$
-\int_a^b f(x)g(x)\ dx =  \int_a^b f(x)\ dG(x) =  \int_a^b g(x)\ dF(x)
+\Omega_f (T) = \sup\{ f(x) - f(y) : x,y \in T\} \tag*{$\dblcolon$}
 $$
 
-<span class="teor">7.34 Teorema:</span> **Segundo teorema fundamental del cálculo**
-Sea $f \in R$ en $[a,b] = I$ y sea $g$ tal que $g'(x) = f(x)$ en $I$. Entonces
 
+
+De la definición se tiene que $0 \le \Omega_f(T) \le 2M < \infty$
+
+Con estos términos, 
 $$
-\int_a^b f(x)\ dx =  \int_a^b g'(x)\ dx = g(b) - g(a)
+U(P_\epsilon) - L(P_\epsilon) < \epsilon \Leftrightarrow \sum_k  \Omega_f([x_{k-1}, x_k]) \Delta _kx < \epsilon
 $$
+ Es decir que si la suma de las oscilaciones por $\Delta_k x$ es pequeña entonces la función es Riemann integrable.
 
-$g$ se dice una **primitiva** de $f$ <span style="float: right;">$\dblcolon$</span>
+<span class="teor">Proposición:</span> Si $S \sube T$, entonces $\Omega_f(S) \le  \Omega_f(T)$
 
-<span class="teor">7.35 Corolario:</span> Sea $f \in R(\alpha)$, si $\alpha$ es continua en $[a,b]$ y $\alpha'\in R$ en $[a,b]$, entonces:
-
+<span class="defn">Definición:</span> Definimos la **oscilación de $f$ en $c \in [a,b]$** por 
 $$
-\int_a^b f(x)\ d\alpha(x) =  \int_a^b f(x)\alpha'(x)\ dx
-$$
-
-# Cambio de variable en una integral de Riemann
-<span class="teor">7.36 Teorema:</span> **Cambio de variable II**
-Sean $g \in \mathcal{C^1}([c,d])$ y $f$ continua en $g([c,d])$ (en la imagen de $g$). Sea $F(x) = \int_{g(c)}^x f(t)\ dt$ con $x \in g([c,d])$. Entonces, para todo $x \in [c,d]$, $ \int_c^x f(g(t))g'(t)\ dt$ existe y se cumple que
-
-$$
-\int_{g(c)}^{g(d)} f(t)\ dt =  \int_c^d f(g(t))g'(t)\ dt
+\begin{align*}
+    \omega_f(c) &= \lim_{h \to 0+} \Omega_f((c-h, c+h))\\
+    &= \inf_{h>0} \Omega_f((c-h, c+h))
+\end{align*}
 $$
 
-<span class="nota">Nota:</span> La versión I requería $f \in R$, $g'\in R$ y $g \uparrow$ sobre $[a,b]$, mientras que II no supone la monotonía de $g$
 
-## Aplicación a VA y longitud de curvas.
-Sea $f \in \mathcal C^1([a,b])$ y por tanto de VA en $[a,v]$, entonces
+Si $c=a$ se toma $\lim_{h \to 0+} \Omega_f((a,a+h))$
+Si $c=b$ se toma $\lim_{h \to 0+} \Omega_f((b-h,b))$
 
+<span class="teor">Teorema:</span> $f$ es continua en $c \in [a,b]$ si y sólo si $\omega_f = 0$.
+De manera análoga,  $f$ es discontinua en $c \in [a,b]$ si y sólo si $\omega_f \ne 0$.
+
+<span class="teor">7.46 Teorema:</span> Sea $T$ un subonjunto compacto de $[a,b]$ tal que $\omega_f(x) < \epsilon$ para todo $x \in T$. Entonces existe $\delta>0$ tal que para todo $c \in T$ 
 $$
-V_f(a,b) = \int_a^b |f'(t)|\ dt
+\Omega_f(B(c,\delta)) < \epsilon
 $$
+ con $B(c,\delta) = (c-\delta, c+\delta)$ <span style="float: right;">$\dblcolon$</span>
 
-# Integrales dependientes de un parámetro
+- $T$ puede no ser un intervalo cerrado, puede tener puntos aislados, ser unión de cerrados, etc.
+- Esto no garantiza que la oscilación sea $0$ si no que sea menor que ese $\epsilon$ fijado.
 
-<span class="defn">Definición:</span>  Sea $f$ continua en $D = [a,b] \times [c,d]$ y $\alpha$ de variación acotada en $[a,b]$. Se define
+<span class="teor">7.47 Teorema:</span> Sea $\epsilon>0$, si definimos $J_\epsilon = \{ x \in [a,b] : \omega_f(x) \ge \epsilon \}$, entonces $J_\epsilon$ es compacto.
 
+<span class="nota">Nota:</span> Entonces los puntos de discontinuidad de $f$ deben estar en algún $J_\epsilon$ y en particular si 
 $$
-F(y) = \int_a^b f(x,y)\ d\alpha(x)
-$$
-
-$y$ es un parámetro que varía entre $c,d$
-
-<span class="teor">7.38 Teorema:</span> $F$ así definida es continua en $[c,d]$, esto es
-
-$$
-\lim_{y\to y_0} F(y)  = F(y_0) \tag*{$\dblcolon$}
-$$
-
-Otra expresión que representa esta propiedad
-
-$$
-\lim_{y\to y_0} F(y) = \lim_{y\to y_0} \int_a^b f(x,y)\ d\alpha(x) = \int_a^b \lim_{y\to y_0}f(x,y)\ d\alpha(x) = F(y_0)
+\begin{align*}
+    &D := \{ x \in [a,b] : f \text{ es discontinua en }x\}\\
+    &D = \bigcup_{n \in \Z^+} J_{\frac 1 n}
+\end{align*}
 $$
 
-porque $f$ es continua permite intercambiar $\lim$ con $\int$
 
-<span class="teor">7.39 Corolario:</span> Si  $f$  es continua en $D = [a,b] \times [c,d]$ y $g \in R$ en $[a,b]$ entonces
+## Conjuntos de medida nula
 
+### Medida
+<span class="defn">Definición:</span> Sea $I = [a,b]$, la **medida** de $I$ es equivalente a su longitud 
 $$
-F(y) = \int_a^b g(x) f(x,y)\ d\alpha(x)
+|[a,b]| = b-a\\
+|(a,b]|= |[a,b)| = |(a,b)| = b-a
 $$
+ si $a=b$ se define $|[a,a]| = 0$
 
-es continua en $[c,d]$ <span style="float: right;">$\dblcolon$</span>
-
-## Derivada bajo el signo integral
-
-<span class="teor">7.40 Teorema:</span> Derivada bajo el signo integral. Sea $f$ continua en $D = [a,b] \times [c,d]$, $\alpha$ de variación acotada en $[a,b]$ y $\frac{\partial}{\partial y}f(x,y)$ continua en $D$. Si $F(y) = \int_a^b f(x,y)\ d\alpha(x)$, entonces $F$ es derivable en $[c,d]$ y además
-
+<span class="teor">Propiedades:</span> 
+- Si $I = [a,b]$, $J=[c,d]$ y $I \cap J = \empty$ entonces 
 $$
-\frac{\partial F}{\partial y}(y) = F'(y) = \int_a^b \frac{\partial f}{\partial y}(x,y)\ d\alpha(x) \tag*{$\dblcolon$}
-$$
-
-La notación $y^* \in \overline{y_0y}$ significa que está entre $y_0$ y $y$, pues no se sabe cuál de los dos es mayor o menor.
-
-<span class="teor">Corolario:</span> Sea $F(y)= \int_a^b  g(x) f(x,y)\ d\alpha(x)$ con $g \in R$ en $[a,b]$, entonces $F$ es derivable y
-
-$$
-F'(y) = \int_a^b g(x)  \frac{\partial f}{\partial y}(x,y)\ dx = \int_a^b \frac{\partial f}{\partial y}(x,y)\ d\alpha(x)
+|[a,b] \cup [c,d]| = |[a,b]| + |[c,d]|
 $$
 
-con $\alpha(x) = \int_a^x g(t)\ dt$
-
-<span class="teor">Corolario:</span> Sea $f$ continua en $D = [a,b] \times [c,d]$, $\frac{\partial f}{\partial y}(x,y)$ continua en $D$ y $p(y), q(y)$ derivables en $[a,b]$ tales que $\alpha < p(y), q(y)  < b$ y sea $F(y) = \int_{q(y)}^{p(y)} f(x,y) \ dx$. Entonces $F$ es derivable en $[c,d]$ y cumple que
-
+- Si $\displaystyle S=\bigcup_{k=1}^n  I_k$ tal que $I_k \cap I_j = \empty$ para $k\ne j$, entonces 
 $$
-F'(y) = \int_{q(y)}^{p(y)} \frac{\partial f}{\partial y}(x,y)\ dx + f(p(y), y)p'(y) - f(q(y), y)q'(y)
+|S| = \sum_{k=1}^n |I_k|
 $$
 
-## Intercambio en el orden de integración
-
-<span class="teor">7.41 Teorema:</span> Igualdad de integrales iteradas.  Sea $f$ continua en $D = [a,b] \times [c,d]$, $\alpha$ de VA en $[a,b]$, $\beta$ de VA en $[c,d]$ y sean $F(y)= \int_a^b  f(x,y)\ d\alpha(x)$ y $G(x)= \int_c^d  f(x,y)\ d\beta(x)$. Entonces $F\in R(\beta)$ y $G \in R(\alpha)$ y
-
+- Si $\displaystyle S=\bigcup_{k=1}^\infty  I_k$ tal que $I_k \cap I_j = \empty$ para $k\ne j$, entonces 
 $$
-\int_a^b  G(x)\ d\alpha(x) = \int_c^d  F(y)\ d\beta(y)\\
-\int_a^b \left( \int_c^d  f(x,y)\ d\beta(y)\right)\ d\alpha(x) = \int_c^d \left( \int_a^b  f(x,y)\ d\alpha(x)\right)\ d\beta(y) \tag*{$\dblcolon$}
+|S| = \sum_{k=1}^\infty |I_k|
 $$
+
+
+### Medida cero
+<span class="defn">Definición:</span> Sea $S \sube \R$ y sea $\{I_k\}_{k \in \N}$ tal que $I_k$ es abierto para todo $k>1$ y $S \sube \bigcup_{k=1}^\infty  I_k$, entonces $\{I_k\}_{k \in \N}$ se dice un cubrimiento de Lebesgue de $S$.
+
+<span class="defn">Definición:</span> Sea $S \sube \R$ se dice que es un **conjunto de medida cero** si y sólo si 
+$$
+\inf_{\{I_k\}_{k \in \N}}\sum_{k \in \N}|I_k| = 0
+$$
+
+
+- Apostol: Un conjunto $S \sube \R$ posee medida cero si, para cada $\epsilon >0$, existe un recubrimiento numerable de $S$ por medio de intervalos abiertos, tales que la suma de sus longitudes sea menor que $\epsilon$
+
+<span class="defn">Definición:</span> Se define $m(\empty) = 0$
+
+<span class="teor">7.44 Proposición:</span> Sean $S_n$ con $n=1,2 \dots$ conjuntos de medida cero, entonces $\bigcup_{n=1}^\infty S_n$ tiene medida cero.
+
+<span class="teor">Proposición:</span> Sea $S$ un subconjunto cerrado del intervalo $[a,b]$, entonces $m(S) = 0$ si y sólo si para todo $\epsilon>0$ existe $P$ partición de $[a,b]$ tal que 
+$$
+\sum_{k^*} \Delta_k x < \epsilon
+$$
+ donde $k^*$ son los $k$ tales que $S \cap [x_{k-1} , x_k] \ne \empty$ <span style="float: right;">$\dblcolon$</span>
+
+## Criterio de Lebesgue
+
+<span class="teor">Teorema:</span> $f \in R$ en $[a,b]$ si y sólo si para todo $c>0$ se tiene que si  $J_c = \{ x \in [a,b] : \omega_f(x) \ge c \}$, entonces $m(J_c) = 0$
+
+<span class="teor">7.48 Teorema:</span> **Criterio de Lebesgue**
+Sea $f$ acotada en $[a,b]$ y sea $D := \{ x \in [a,b] : f \text{ es discontinua en }x\}$. Entonces $f \in R$ en $[a,b]$ si y sólo si $D$ tiene medida $0$ <span style="float: right;">$\dblcolon$</span>
+
+Es equivalente a que $m(J_{\frac 1 n}) = 0$ para todo $n \ge 1$.
+
+<span class="teor">7.49 Corolario:</span> 
+1. Si $f$ es de VA en $[a,b]$ entonces $f \in R$ en $[a,b]$
+2. Si $f \in R$ en $[a,b]$ entonces
+   - $f \in R$ en $[c,d]$, con $[c,d] \sube [a,b]$
+   - $|f| \in R$ en $[a,b]$
+   - $f^2 \in R$ en $[a,b]$
+   - $fg \in R$ en $[a,b]$ siempre que $g \in R$ en $[a,b]$
+3. Si $f,g \in R$ en $[a,b]$, entonces $f/g \in R$ en $[a,b]$ siempre que exista $m >0$ tal que $ m \le |g(x)| $ para todo $x \in [a,b]$
+4. Si $f,g$ son acotadas con las mismas discontinuidades, entonces $f \in R$ en $[a,b]$ si y sólo si $g \in R$ en $[a,b]$
+5. Sea $g \in R$ en $[a,b]$ si existen $m,M$ tales que $m \le g(x) \le M$ para todo $x \in [a,b]$. Si $f$ es continua en $[m,M]$, entonces $f \circ g \in R$ en $[a,b]$
