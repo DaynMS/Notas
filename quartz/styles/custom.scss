@@ -110,7 +110,8 @@
 .callout {
     &[data-callout="teorema"],
     &[data-callout="proposicion"],
-    &[data-callout="lema"] {
+    &[data-callout="lema"],
+    &[data-callout="corolario"] {
     --color: #00b8d4;
     --border: #00b8d444;
     --bg: #00b8d410;
@@ -136,4 +137,11 @@
     --border: #7a43b544;
     --bg: #7a43b510;
     }
+}
+
+.callout[data-callout="demostracion"] {
+    --color: #7e7e7e;
+    --border: #d6d6d6;
+    --bg: #f0f0f0;
+    color: #7e7e7e;
 }

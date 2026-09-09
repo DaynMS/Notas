@@ -43,11 +43,18 @@
 >\lim_{h \to 0 } \frac{\| f(a+h) - f(a) - T_a(h) \|}{\| h\|} = 0
 >$$
 
->[!definicion] Definición
->fecoma
+>[!demostracion]- Demostración
+>fecoma  
+>hrjrthtyrt  
+>$ ggr$
+>
+>abc
+>$$
+>crghrr
+>$$ 
 
 >[!teorema] 
->fefe
+>fefe  
 
 >[!ejemplo] 
 >fjefef
