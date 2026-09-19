@@ -145,3 +145,21 @@
     --bg: #f0f0f0;
     color: #7e7e7e;
 }
+
+
+@media print {
+    .left,
+    .right,
+    #graph-container,
+    nav,
+    footer,
+    .search,
+    .toc {
+        display: none !important;
+    }
+
+    .center {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
