@@ -163,3 +163,9 @@
         margin: 0 !important;
     }
 }
+
+@media (max-width: 800px) {
+    .page > #quartz-body > div.left.sidebar > div.toc {
+        display: none !important;
+    }
+}
