@@ -20,7 +20,7 @@
 
 ## Sección 2. Funciones de clase $C^{1}$
 
-1. ☐ Sea $f:\mathbb{R}^{2}\rightarrow\mathbb{R}$ definida por $f(x,y)=\frac{x^{2}y}{x^{2}+y^{2}} \quad \text{si } (x,y)\ne(0,0) \quad \text{y} \quad f(0,0)=0$. Muestre que, para todo $v=(\alpha,\beta)\in\mathbb{R}^{2}$, existe la derivada direccional $\frac{\partial f}{\partial v}(0,0)$, pero $f$ no es diferenciable en el punto $(0,0)$.
+1. 🗹 Sea $f:\mathbb{R}^{2}\rightarrow\mathbb{R}$ definida por $f(x,y)=\frac{x^{2}y}{x^{2}+y^{2}} \quad \text{si } (x,y)\ne(0,0) \quad \text{y} \quad f(0,0)=0$. Muestre que, para todo $v=(\alpha,\beta)\in\mathbb{R}^{2}$, existe la derivada direccional $\frac{\partial f}{\partial v}(0,0)$, pero $f$ no es diferenciable en el punto $(0,0)$.
 >[!demostracion]- Solución
 >Si $v=(\alpha,\beta)$ entonces $\frac{\partial f}{\partial v}(0,0)=\lim_{t\rightarrow0}\frac{1}{t}\cdot\frac{(t\alpha)^{2}t\beta}{(t\alpha)^{2}+(t\beta)^{2}}=\frac{\alpha^{2}\beta}{\alpha^{2}+\beta^{2}}$ para todo $v\ne0$. En particular, $\frac{\partial f}{\partial x}(0,0)=0$ y $\frac{\partial f}{\partial y}(0,0)=0$, luego $\text{grad } f(0,0)=0.$ Si $f$ fuese diferenciable en el punto (0,0), tendríamos $\frac{\partial f}{\partial v}(0,0)=\langle \text{grad } f(0,0),v\rangle$, lo que no ocurre.
 
