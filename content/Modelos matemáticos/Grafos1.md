@@ -46,3 +46,34 @@ Al multiplicar por el vector $(1, \dots, 1)$ se obtiene el grado de los vértice
 ## Algoritmos para obtener un árbol de expansión
 
 ## Número de cluster
+
+
+---
+# Clase 10-28
+
+- Normalizar los grados: Dividir el grado por el máximo para tener un valor entre 0 y 1. Se puede colorear los nodos que tienen más de 0.5, y corresponden a los más conectados.
+
+## Eigencentrality
+Se toma la matriz de adyacencia. Calcular los valores propios
+$$
+\mathrm{Spec}(A) = \{ \lambda_n \le \lambda_{n-1} \le  \dots \le \lambda_1\}
+$$
+Y $\lambda_1$ se conoce como el radio espectral.
+Se toma un vector asociado a ese $\lambda_1$ y se divide por el valor más grande en el vector. El vector resultante es el vector de eigencentrality
+
+## Intermediación
+Suma de caminos cercanos que pasan por $v$ divididos entre todos los caminos que pasan por $v$
+
+Los que tienen mayor intermediación tienen más probabilidad de que un camino pase por ellos. 
+
+"Para colocar un peaje"
+
+## Pagerank
+Es el que usa Google. El algoritmo ya está implementado, no hay fórmula.
+
+## Cercanía
+Esté más cerca a todos, conecta fácil a todos
+$$
+C(x) = \frac{1}{\sum_{y \in V} d(x,y)}
+$$
+
