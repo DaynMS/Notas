@@ -42,7 +42,3 @@ Se coloca en el mismo orden los vértices en las filas y columnas. Se coloca $1$
 - Si es no dirigido la matriz es simétrica
 
 Al multiplicar por el vector $(1, \dots, 1)$ se obtiene el grado de los vértices.
-
-## Algoritmos para obtener un árbol de expansión
-
-## Número de cluster
