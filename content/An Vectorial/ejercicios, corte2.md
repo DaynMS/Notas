@@ -7,7 +7,7 @@
 - [ ] $3.6$
 - [ ] $3.7$
 
-## 10. Medida y contenido cero:
+## 10. Medida y contenido cero
 - [ ] $3.8$
 - [ ] $3.10$
 - [ ] $3.11$
@@ -21,3 +21,12 @@
 - [ ] $3.26$
 - [ ] $3.27$
 - [ ] $3.33$
+
+## 12. Particiones de la unidad
+- [ ] $3.37$ $a)$, $b)$
+- [ ] $3.38$
+
+## 13. Prop. de la integral y cambio de variable 
+- [ ] $3.39$
+- [ ] $3.40$
+- [ ] $3.41$ $c)$, $d)$, $e)$
