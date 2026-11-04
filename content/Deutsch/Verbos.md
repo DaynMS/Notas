@@ -30,3 +30,15 @@
 | Sie | seien |
 | ihr | seid |
 | wir | seien |
+
+# Otros verbos
+
+- verstehen: entender
+- nennen: nombrar, decir
+- bestellen: ordenar comida 
+- bezahlen: pagar
+- feiern: celebrar
+- einladen: invitar
+- anfangen: empezar
+- einsammeln: recolectar
+- schicken: enviar
