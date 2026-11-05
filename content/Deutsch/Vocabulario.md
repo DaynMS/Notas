@@ -1,5 +1,5 @@
-das Datum: - fecha
-die Einladung: - invitción
+- das Datum: fecha
+- die Einladung: invitción
 - der Ereignis: acontecimiento
 - Veranstaltungstipps: evento
 - Überraschung: sorpresa
