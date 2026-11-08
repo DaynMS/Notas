@@ -42,3 +42,44 @@
 - anfangen: empezar
 - einsammeln: recolectar
 - schicken: enviar
+
+# Pasado
+
+- aufwachen
+- einschlafen
+- 
+## Sein 
+
+- fliegen - volar - geflogen
+- aussteigen - descender - ausgesteigt
+- ankommen - llegar - angekommen
+- werden - convertirse, transformarse - geworden
+- laufen - reir - gelaufen
+- gehen - ir - gegangen
+- einschlafen - quedarse dormido - eingeschlafen
+- aufwachen - despertarse - aufgewacht
+
+
+## Haben
+
+- bringen - traer - gebracht
+- anrufen - llamar - angeruft
+- essen - comer - gegessen
+- sprechen - hablar - gesprochen
+- arbeiten - trabajar - gearbeitet
+- wachsen - encerar - gewachsen
+- fernsehen - ver TV - ferngesehen
+- lesen - leer - gelesen
+- trinken - tomar - getrunken
+- fahren - conducir - gefahren
+- schlafen - dormir - geschlafen
+- vergessen - olvidar - vergessen
+
+1. sind
+2. haben
+3. haben
+4. sind
+5. hat
+6. haben
+7. hat
+8. sind
