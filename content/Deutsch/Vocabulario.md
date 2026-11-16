@@ -18,3 +18,39 @@ Se agrega *-ten*, excepciones:
 A las decenas se les agrega *sten*
 
 # Pronombres en acusativo
+
+# Oficina
+
+## Sustantivos
+
+- die Datei: archivo, fichero
+- der Drucker: impresora
+- Akku : batería
+
+## Verbos
+
+- hochfahren : iniciar
+- drucken : imprimir
+- eingeben : dar, administrar
+- speichern : almacenar, guardar
+- öffnen : abrir
+- ausmachen : apagar
+- anmachen : fijar, encender
+- Stelle finden ; encontrar trabajo
+- recherchieren : consultar información
+
+# Medios de transporte - Verkehrsmittel
+- das Auto 
+- das Fahrrad
+- das Flugzeug
+- das Schiff
+- die U-Bahn
+- die Straßenbahn
+- der Zug : tren
+- die S-Bahn : tren
+
+## Verbos:
+- lenken : conducir
+- fahren
+  - mit dem : viajar en...
+  - akkusativ : conducir
