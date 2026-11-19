@@ -54,3 +54,23 @@ A las decenas se les agrega *sten*
 - fahren
   - mit dem : viajar en...
   - akkusativ : conducir
+
+# Vivienda
+- das Wohnzimmer
+- das Schlafzimmer
+- das Kinderzimmer
+- das Arbeitszimmer
+- das Esszimmer
+- das Gästezimmer
+- die Küche
+- das Bad
+- der Flur
+- der Balkon
+- der Garten
+- das Fensterbrett : alfeizar
+- die Gardine : cortina
+- die Spülmaschine - máquin lavaplatos
+- die SPüle - lavaplatos
+
+Respuesta a wo - dativo
+Respuesta a wohin - acusativo

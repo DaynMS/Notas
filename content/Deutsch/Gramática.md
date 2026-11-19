@@ -60,18 +60,45 @@ con dativo
 
 seit es sólo para responder algo que continúa hasta hoy.
 
-## seit : durante
+## seit : desde
 
 - Ich lerne Deutsch seit einem Jahr.
 - Ich spiele seit 10 Jharen.
-  
+
+
+Se puede usar para contestar a ambas preguntas: 
 Wie lange? - por cuánto tiempo?
 - Seit : desde hace... 
 - Für : por tanto tiempo
 
-## seit : desde
 Seit wann? - desde cuándo?
 
 En este caso ambas preguntas se pueden responder con *seit*
 
+## vor : 
+antes
 
+## nach :
+después
+
+
+# Preposiciones de lugar 
+
+## bei : donde tal
+
+## nach 
+
+
+## zu : muy 
+pero se dice para algo negativo
+
+
+- Auf : sobre, encima de - con contacto / en - lugar no cerrado
+- Über : sobre, encima de - sin contacto
+- Unter : debajo
+- Vor : al frente
+- Neben : al lado - sin contacto
+- An : al lado - con contacto
+- Zwischen : entre
+- In : adentro - lugar cerrado
+- Hinter : detrás
