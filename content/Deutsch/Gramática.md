@@ -99,6 +99,18 @@ pero se dice para algo negativo
 - Vor : al frente
 - Neben : al lado - sin contacto
 - An : al lado - con contacto
+  - An der Wand
 - Zwischen : entre
 - In : adentro - lugar cerrado
+  - ins : 
 - Hinter : detrás
+
+## Nach : hacia
+Se usa para dirigirse haca:
+- Länder : países 
+- Städte : ciudades
+- Dörfer : pueblos
+- Haus : casa
+
+- ich bin zu Hause : estoy en la casa
+- ich gehe nach Hause : 

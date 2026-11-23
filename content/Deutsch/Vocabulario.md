@@ -72,5 +72,31 @@ A las decenas se les agrega *sten*
 - die Spülmaschine - máquin lavaplatos
 - die SPüle - lavaplatos
 
+## Tipos de vivienda
+- das Studentenwohnheim : dormitorio de estudiantes
+- das Bauernhaus : casa de campo
+- das Reihenhaus : casas ordenadas, pegadas
+- das Hochhaus : edificio
+- die Dachwohnung : ático
+
 Respuesta a wo - dativo
 Respuesta a wohin - acusativo
+
+# Kleidung : Ropa
+- die Jacke : chaqueta
+- der Mantel : abrigo 
+- der Pullover : buso
+- der Rock : falda
+- das T-shirt
+- die Bluse : blusa
+- das Hemd : camisa
+- der Anzug: traje
+- der Stiefel : botas
+- die Mütze : gorro de lana
+- der Handschuh : guante
+  - die Handschuhe
+- der Regenschirm : sombrilla
+- Hose : pantalón
+- Kleid : vestido
+- Unterhose : calzoncillos
+- Unterhemd : esqueleto
