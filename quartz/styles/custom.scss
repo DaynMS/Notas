@@ -101,21 +101,33 @@
 }
 
 
-.callout[data-callout="definicion"] {
+.callout {
+    &[data-callout="definicion"],
+    &[data-callout="rojo"] {
     --color: #db4242;
     --border: #db424244;
     --bg: #db424210;
+    }
+}
+
+.callout[data-callout="rojo"] > .callout-title {
+    display: none;
 }
 
 .callout {
     &[data-callout="teorema"],
     &[data-callout="proposicion"],
     &[data-callout="lema"],
-    &[data-callout="corolario"] {
+    &[data-callout="corolario"],
+    &[data-callout="azul"] {
     --color: #00b8d4;
     --border: #00b8d444;
     --bg: #00b8d410;
     }
+}
+
+.callout[data-callout="azul"] > .callout-title {
+    display: none;
 }
 
 .callout[data-callout="nota"] {
