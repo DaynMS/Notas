@@ -100,3 +100,24 @@ Respuesta a wohin - acusativo
 - Kleid : vestido
 - Unterhose : calzoncillos
 - Unterhemd : esqueleto
+
+# Profesiones
+- der Arzt : médico
+  - Ärzte
+- der Bauer : campesino , granjero
+  - die Bauern
+- der Lehrer : maestro
+  - die Lehrer
+- die Lehrerin : maestra
+  - die Lehrerinnen
+- der Maler : pintor de casas
+  - die Maler
+- der Kunstmaler : pintor artista
+  - die Kunstmaler
+- die Reinigungskraft
+  - die Reinigungskräfte
+- der Verkäufer : vendedor
+  - die Verkäufer
+- der Zahnarzt
+  - die Zahnärzte
+- 
