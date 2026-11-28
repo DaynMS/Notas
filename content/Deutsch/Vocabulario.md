@@ -120,4 +120,46 @@ Respuesta a wohin - acusativo
   - die Verkäufer
 - der Zahnarzt
   - die Zahnärzte
-- 
+
+# Ciudad
+
+- die Fußgängerzone : sendero peatonal
+- der Schalter : taquilla, lugar para comprar tiquetes
+- der Zebrastreifen : cebra (peatonal)
+- das Gleis : plataforma de transporte público
+- die Anzeigetafel : tablero de anuncios
+- die Kreuzung : intersección de calles
+- der Radweg : ciclorruta
+- die Straße : calle, avenida
+- der Platz : plaza
+- der Bahnhof : estación de tren
+- die Verspätung : tardanza
+- das Schild : señal
+- der Kiosk : kiosko, puesto de ventas
+- die BahnCard : tarjeta de transporte
+- die Fahrkarte : pasaje
+- die Ampel : semáforo
+
+- die Staft : ciudad
+- die Apotheke, die Drogerie : droguería
+- die Bäckerei : panadería
+- das Café : café (lugar)
+- der Dönerladen : tienda de comida döner
+- die Fabrik : fábrica
+- das Fitnessstudio : gimnasio
+- der Fußballplatz
+- das Kino : cine
+- das Krankenhaus : hospital
+- die Pizzeria : 
+- die Post, die Postfiliale : oficina postal
+- das Restaurant
+- die Schule : escuela
+- das Schwimmbad : piscina
+- der Spielplatz : plaza de juegos para los niños, patio de juegos
+- das Stadion : estadio
+- das Theater : teatro
+- die Turnhalle : gimansio sin aparatos
+- der Zoo : zológico
+- die Tankstelle : estación de servicio
+- die Kirche : iglesia
+- der Parkplatz : parqueadero

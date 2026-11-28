@@ -47,6 +47,8 @@ Mit wem... - con quién...
 
 - aus: de donde pero internamente
 
+
+
 # Adverbios de gustar
 
 Orden de preferencia:
@@ -114,3 +116,9 @@ Se usa para dirigirse haca:
 
 - ich bin zu Hause : estoy en la casa
 - ich gehe nach Hause : 
+
+
+- bis zu : hasta
+  - ir hasta...
+- an : en
+  - respecto a un punto de referencia
